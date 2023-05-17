@@ -9,7 +9,7 @@ dependencies:
   - pip
   - pytorch-mutex=1.0=cuda
   - pip:
-    - pytorch
+    - torch
     - accelerate==0.16.0
     - aiohttp==3.8.4
     - aiosignal==1.3.1
