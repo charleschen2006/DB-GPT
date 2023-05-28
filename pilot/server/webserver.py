@@ -525,20 +525,8 @@ def change_tab():
 
 
 def build_single_model_ui():
-<<<<<<< HEAD
-    notice_markdown = """
-    # LocalChatGPT
-    
-    使用本地化的GPT大模型与您的数据和环境进行交互，无数据泄露风险，100% 私密，100% 安全。 
-    """
-    learn_more_markdown = """ 
-        ### Licence
-        github 版权所有， 翻版必究 
-    """
-=======
     notice_markdown = get_lang_text("db_gpt_introduction")
     learn_more_markdown = get_lang_text("learn_more_markdown")
->>>>>>> 101430de26bed465b81c1472e077eff35e9bce67
 
     state = gr.State()
     gr.Markdown(notice_markdown, elem_id="notice_markdown")
