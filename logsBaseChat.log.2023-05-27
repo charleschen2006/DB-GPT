@@ -1,0 +1,82 @@
+2023-05-27 23:48:34 | INFO | sqlalchemy.engine.Engine | BEGIN (implicit)
+2023-05-27 23:48:34 | INFO | sqlalchemy.engine.Engine | BEGIN (implicit)
+2023-05-27 23:48:34 | INFO | sqlalchemy.engine.Engine |  show databases;
+2023-05-27 23:48:34 | INFO | sqlalchemy.engine.Engine |  show databases;
+2023-05-27 23:48:34 | INFO | sqlalchemy.engine.Engine | [generated in 0.00016s] {}
+2023-05-27 23:48:34 | INFO | sqlalchemy.engine.Engine | [generated in 0.00016s] {}
+2023-05-27 23:48:34 | INFO | stdout | /home/charles/DB-GPT
+2023-05-27 23:48:34 | INFO | stdout |  [0m Allowlisted Plugins: []
+2023-05-27 23:48:34 | DEBUG | LOGGER | Allowlisted Plugins: []
+2023-05-27 23:48:34 | INFO | stdout |  [0m Denylisted Plugins: []
+2023-05-27 23:48:34 | DEBUG | LOGGER | Denylisted Plugins: []
+2023-05-27 23:48:41 | ERROR | stderr | /home/charles/miniconda3/envs/db_gpt/lib/python3.10/site-packages/gradio/deprecation.py:43: UserWarning: You have unused kwarg parameters in File, please remove them: {'allow_flagged_uploads': True}
+2023-05-27 23:48:41 | ERROR | stderr |   warnings.warn(
+2023-05-27 23:48:41 | ERROR | stderr | /home/charles/miniconda3/envs/db_gpt/lib/python3.10/site-packages/gradio/deprecation.py:43: UserWarning: You have unused kwarg parameters in File, please remove them: {'accept_multiple_files': True}
+2023-05-27 23:48:41 | ERROR | stderr |   warnings.warn(
+2023-05-27 23:48:41 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2023-05-27 23:48:41 | INFO | stdout | 
+2023-05-27 23:48:41 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2023-05-27 23:49:24 | INFO | stdout | 当前对话模式:chat_normal
+2023-05-27 23:51:00 | INFO | stdout | 当前对话模式:chat_normal
+2023-05-28 00:12:37 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2023-05-28 00:12:45 | ERROR | stderr | Traceback (most recent call last):
+2023-05-28 00:12:45 | ERROR | stderr |   File "/home/charles/miniconda3/envs/db_gpt/lib/python3.10/site-packages/gradio/blocks.py", line 1735, in block_thread
+2023-05-28 00:12:45 | ERROR | stderr |     time.sleep(0.1)
+2023-05-28 00:12:45 | ERROR | stderr | KeyboardInterrupt
+2023-05-28 00:12:45 | ERROR | stderr | 
+2023-05-28 00:12:45 | ERROR | stderr | During handling of the above exception, another exception occurred:
+2023-05-28 00:12:45 | ERROR | stderr | 
+2023-05-28 00:12:45 | ERROR | stderr | Traceback (most recent call last):
+2023-05-28 00:12:45 | ERROR | stderr |   File "/home/charles/DB-GPT/pilot/server/webserver.py", line 766, in <module>
+2023-05-28 00:12:45 | ERROR | stderr |   File "/home/charles/miniconda3/envs/db_gpt/lib/python3.10/site-packages/gradio/blocks.py", line 1652, in launch
+2023-05-28 00:12:45 | ERROR | stderr |     self.block_thread()
+2023-05-28 00:12:45 | ERROR | stderr |   File "/home/charles/miniconda3/envs/db_gpt/lib/python3.10/site-packages/gradio/blocks.py", line 1738, in block_thread
+2023-05-28 00:12:45 | ERROR | stderr |     self.server.close()
+2023-05-28 00:12:45 | ERROR | stderr |   File "/home/charles/miniconda3/envs/db_gpt/lib/python3.10/site-packages/gradio/networking.py", line 43, in close
+2023-05-28 00:12:45 | ERROR | stderr |     self.thread.join()
+2023-05-28 00:12:45 | ERROR | stderr |   File "/home/charles/miniconda3/envs/db_gpt/lib/python3.10/threading.py", line 1096, in join
+2023-05-28 00:12:45 | ERROR | stderr |     self._wait_for_tstate_lock()
+2023-05-28 00:12:45 | ERROR | stderr |   File "/home/charles/miniconda3/envs/db_gpt/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+2023-05-28 00:12:45 | ERROR | stderr |     if lock.acquire(block, timeout):
+2023-05-28 00:12:45 | ERROR | stderr | KeyboardInterrupt
+2023-05-28 00:24:09 | INFO | sqlalchemy.engine.Engine | BEGIN (implicit)
+2023-05-28 00:24:09 | INFO | sqlalchemy.engine.Engine | BEGIN (implicit)
+2023-05-28 00:24:09 | INFO | sqlalchemy.engine.Engine |  show databases;
+2023-05-28 00:24:09 | INFO | sqlalchemy.engine.Engine |  show databases;
+2023-05-28 00:24:09 | INFO | sqlalchemy.engine.Engine | [generated in 0.00014s] {}
+2023-05-28 00:24:09 | INFO | sqlalchemy.engine.Engine | [generated in 0.00014s] {}
+2023-05-28 00:24:09 | INFO | stdout | /home/charles/DB-GPT
+2023-05-28 00:24:09 | INFO | stdout |  [0m Allowlisted Plugins: []
+2023-05-28 00:24:09 | DEBUG | LOGGER | Allowlisted Plugins: []
+2023-05-28 00:24:09 | INFO | stdout |  [0m Denylisted Plugins: []
+2023-05-28 00:24:09 | DEBUG | LOGGER | Denylisted Plugins: []
+2023-05-28 00:24:10 | ERROR | stderr | /home/charles/miniconda3/envs/db_gpt/lib/python3.10/site-packages/gradio/deprecation.py:43: UserWarning: You have unused kwarg parameters in File, please remove them: {'allow_flagged_uploads': True}
+2023-05-28 00:24:10 | ERROR | stderr |   warnings.warn(
+2023-05-28 00:24:10 | ERROR | stderr | /home/charles/miniconda3/envs/db_gpt/lib/python3.10/site-packages/gradio/deprecation.py:43: UserWarning: You have unused kwarg parameters in File, please remove them: {'accept_multiple_files': True}
+2023-05-28 00:24:10 | ERROR | stderr |   warnings.warn(
+2023-05-28 00:24:10 | INFO | stdout | Running on local URL:  http://0.0.0.0:7860
+2023-05-28 00:24:10 | INFO | stdout | 
+2023-05-28 00:24:10 | INFO | stdout | To create a public link, set `share=True` in `launch()`.
+2023-05-28 00:24:28 | INFO | stdout | 当前对话模式:chat_normal
+2023-05-28 01:06:40 | INFO | stdout | Keyboard interruption in main thread... closing server.
+2023-05-28 01:06:47 | ERROR | stderr | Traceback (most recent call last):
+2023-05-28 01:06:47 | ERROR | stderr |   File "/home/charles/miniconda3/envs/db_gpt/lib/python3.10/site-packages/gradio/blocks.py", line 1735, in block_thread
+2023-05-28 01:06:47 | ERROR | stderr |     time.sleep(0.1)
+2023-05-28 01:06:47 | ERROR | stderr | KeyboardInterrupt
+2023-05-28 01:06:47 | ERROR | stderr | 
+2023-05-28 01:06:47 | ERROR | stderr | During handling of the above exception, another exception occurred:
+2023-05-28 01:06:47 | ERROR | stderr | 
+2023-05-28 01:06:47 | ERROR | stderr | Traceback (most recent call last):
+2023-05-28 01:06:47 | ERROR | stderr |   File "/home/charles/DB-GPT/pilot/server/webserver.py", line 751, in <module>
+2023-05-28 01:06:47 | ERROR | stderr |     demo.queue(
+2023-05-28 01:06:47 | ERROR | stderr |   File "/home/charles/miniconda3/envs/db_gpt/lib/python3.10/site-packages/gradio/blocks.py", line 1652, in launch
+2023-05-28 01:06:47 | ERROR | stderr |     self.block_thread()
+2023-05-28 01:06:47 | ERROR | stderr |   File "/home/charles/miniconda3/envs/db_gpt/lib/python3.10/site-packages/gradio/blocks.py", line 1738, in block_thread
+2023-05-28 01:06:47 | ERROR | stderr |     self.server.close()
+2023-05-28 01:06:47 | ERROR | stderr |   File "/home/charles/miniconda3/envs/db_gpt/lib/python3.10/site-packages/gradio/networking.py", line 43, in close
+2023-05-28 01:06:47 | ERROR | stderr |     self.thread.join()
+2023-05-28 01:06:47 | ERROR | stderr |   File "/home/charles/miniconda3/envs/db_gpt/lib/python3.10/threading.py", line 1096, in join
+2023-05-28 01:06:47 | ERROR | stderr |     self._wait_for_tstate_lock()
+2023-05-28 01:06:47 | ERROR | stderr |   File "/home/charles/miniconda3/envs/db_gpt/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+2023-05-28 01:06:47 | ERROR | stderr |     if lock.acquire(block, timeout):
+2023-05-28 01:06:47 | ERROR | stderr | KeyboardInterrupt
