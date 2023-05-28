@@ -542,9 +542,6 @@ def build_single_model_ui():
         )
     tabs = gr.Tabs()
     with tabs:
-<<<<<<< HEAD
-     
-=======
         tab_sql = gr.TabItem("SQL生成与诊断", elem_id="SQL")
         with tab_sql:
             # TODO A selector to choose database
@@ -561,7 +558,6 @@ def build_single_model_ui():
             sql_vs_setting = gr.Markdown("自动执行模式下, DB-GPT可以具备执行SQL、从网络读取知识自动化存储学习的能力")
             sql_mode.change(fn=change_sql_mode, inputs=sql_mode, outputs=sql_vs_setting)
 
->>>>>>> 116e109e398a2f5cbb71b14110153b022e69a29f
         tab_qa = gr.TabItem("知识问答", elem_id="QA")
         with tab_qa:
             mode = gr.Radio(
@@ -592,21 +588,6 @@ def build_single_model_ui():
                             show_label=False,
                         )
                         load_folder_button = gr.Button("上传并加载到知识库")
-
-        tab_sql = gr.TabItem("文本测试", elem_id="SQL")
-        with tab_sql:
-            # TODO A selector to choose database
-            with gr.Row(elem_id="db_selector"):
-                db_selector = gr.Dropdown(
-                    label="请选择",
-                    choices=dbs,
-                    value=dbs[0] if len(models) > 0 else "",
-                    interactive=True,
-                    show_label=True).style(container=False)
-
-            sql_mode = gr.Radio(["直接执行", "不执行"], show_label=False, value="不执行结果")
-            sql_vs_setting = gr.Markdown("测试模式，开发中，敬请期待")
-            sql_mode.change(fn=change_sql_mode, inputs=sql_mode, outputs=sql_vs_setting)
 
     with gr.Blocks():
         chatbot = grChatbot(elem_id="chatbot", visible=False).style(height=550)
